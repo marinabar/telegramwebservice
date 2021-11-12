@@ -2,7 +2,7 @@ import telebot
 from flask import Flask, render_template
 from threading import Thread
 app = Flask(__name__)
-token = "664959010:AAFmQYtPrmhuq4bc7O0J_NuYmbgmK10M-S0"
+token = ""
 telebot.apihelper.proxy = {'https': 'socks5://tvorogme@tvorog.me:6666'}
 bot = telebot.TeleBot(token=token)
 
